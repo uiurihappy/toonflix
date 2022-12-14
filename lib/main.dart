@@ -1,6 +1,13 @@
 import 'package:flutter/material.dart';
 
+class Player {
+  String name;
+
+  Player({required this.name});
+}
+
 void main() {
+  var ybchar = Player(name: "ybchar");
   runApp(App());
 }
 
